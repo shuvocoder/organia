@@ -1,0 +1,326 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;500;600;700&display=swap');
+
+
+
+.header_menu li{
+    padding: .4em 1.3em;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 700;
+    z-index: 1;
+}
+
+.special_link{
+    display:inline-block;
+    position:relative;
+    cursor:pointer;
+}
+.special_link::after{
+    content:'';
+    position:absolute;
+    z-index: -1;
+    top:0;
+    left:-.1px;
+    right:-.1px;
+    bottom:90%;
+    transition:bottom .1s ease-in-out;
+    background-color:#80B500;
+    
+}
+.special_link:hover::after{
+    bottom:0;
+}
+.special_link:hover a{
+    color: white !important;
+}
+
+
+.slider_section {
+    padding-top: 2em;
+    /* padding-bottom: 5em; */
+    background-color: #F7F5EB;
+}
+.slider_section .content{
+    font-family: 'Rajdhani', sans-serif;
+}
+.slider_section .content h6{
+    font-weight: 400;
+}
+.slider_section .content h1{
+    font-weight: 700;
+    font-size: 3em;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+}
+body{
+    font-family: 'Rajdhani', sans-serif;
+    transition: 1s ease-in-out;
+}
+/* content-section */
+
+
+.banner_item:hover img{
+    cursor: pointer;
+    transition: 1s;
+    transform: scale(1.1);
+}
+.banner_item img{
+    transition: 1s;
+}
+.banner-img{
+    overflow: hidden;
+}
+.banner-img img{
+    overflow: hidden;
+}
+
+
+/* Our-service-section */
+.service_title{
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 700;
+    font-size: 3.5em;
+}
+.product_rating ul {
+    list-style-type: none;
+}
+.product_rating ul li a i{
+    color: #FFB800;
+    font-size: .8em;
+}
+.product_rating span{
+    color: #80B500;
+    font-size: .8em;
+}
+.rate_section{
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 700;
+    color: #80B500;
+
+}
+.card-title{
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 700;
+
+}
+.rate_section h5{
+    font-weight: 700;
+}
+.tab_content_item{
+    transition: .3s;
+}
+.tab_content_item:hover{
+    box-shadow: 0 16px 32px 0 rgba(7, 28, 31, 0.1);
+    -webkit-box-shadow: 0 16px 32px 0 rgba(7, 28, 31, 0.1);
+    cursor: pointer;
+}
+.nav_tab_wrapper{
+    font-family: 'Rajdhani', sans-serif;
+}
+.nav_tab_wrapper .nav-tabs{
+    font-weight: 700 !important;
+    font-size: 1.3em;
+}
+.nav-tabs .nav-link{
+    border: none;
+    color: #80B500;
+    font-weight: 500;
+}
+.nav-tabs .nav-link:active{
+    color: #80B500;
+    border: 1px solid #80B500;
+    outline: none;
+}
+
+.Energy_drink_title{
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 700;
+    font-size: 3em;
+}
+.Energy_drink_slogan{
+    font-size: 1.3em;
+    font-weight: 400;
+}
+.carousel-item img{
+    height: 500px;
+}
+.drink_order{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.drink_order h2{
+    color: #80B500;
+    font-size: 6em;
+    font-weight: 700;
+    letter-spacing: -4px;
+    font-family: 'Rajdhani', sans-serif;
+    text-align: center;
+}
+.drink_order p{
+    color: #181818;
+    font-size: .8em;
+    font-weight: 500;
+
+}
+
+/* order button */
+.order_btn{display:inline-block;
+    padding:10px 25px;
+    position:relative;
+    color:#fff;
+    cursor:pointer}
+.order_btn::before{content:'';
+    position:absolute;height:100%;
+    width:100%;
+    top:5px;
+    right:5px;
+    background-color:#80B500;
+    z-index:-1;
+    transition:transform .2s ease-in-out
+}
+.order_btn::after{content:'';
+    position:absolute;top:0;
+    left:0;height:100%;
+    width:100%;
+    border:1px solid #474e51}
+.order_btn:hover::before{
+    transform:translate(6px,-4px)
+}
+        
+
+
+
+.testimo h2{
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 700;
+    font-size: 3em;
+    text-align: center;
+}
+.footer_address ul li a{
+    color: black;
+}
+.footer_menu ul{
+    padding: 10px 0 10px 0;
+}
+.footer_menu ul li{
+    padding: 10px 0 10px 0;
+}
+.footer_title{
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 600;
+    font-size: 1em;
+}
+/* newsletter */
+
+
+.footer_newsletter .form-control {
+    height: 50px;
+    border: 2px solid #eee
+}
+
+.footer_newsletter .form-control:focus {
+    box-shadow: none;
+    border: 2px solid #80B500;
+}
+
+.footer_newsletter .btn-danger {
+    height: 50px;
+    font-size: 11px
+}
+#footer_section{
+    background-color: #F7F5EB;
+}
+
+
+/* nav hover  */
+.nav-item{
+    display:inline-block;
+    position:relative;
+    cursor:pointer
+}
+.nav-item::after{
+    content:'';
+    position:absolute;
+    width:100%;
+    transform:scaleX(0);
+    height:2px;
+    bottom:0;left:0;
+    background-color:#80B500;
+    transform-origin:bottom right;
+    transition:transform .4s cubic-bezier(.86,0,.07,1)
+}.nav-item:hover::after{
+    transform:scaleX(1);
+    transform-origin:bottom left
+}
+
+/* Explore btn  */
+.explore_btn a{
+    color: white;
+    font-size: 1.3em;
+    font-weight: 700;
+    transition: .3s ease-in-out;
+    text-transform: uppercase;
+}
+.explore_btn{
+    height: 3.5em;
+    width: 15em;
+    padding:0 14px;
+    overflow:hidden;
+    background:#80B500;
+    position:relative;
+    line-height:40px;
+    color:#fff;
+    text-align:center;
+    z-index: 99;
+    border-radius: 0;
+}
+.explore_btn span{
+    position:relative;
+    z-index:1;
+}
+.explore_btn::before{
+    content:'';
+    position:absolute;
+    left:0;
+    bottom:0;
+    width:100%;
+    height:100%;
+    transform:translateX(-100%);
+    background: white;
+    transition:transform .2s ease-in-out;
+    z-index: -1;
+}
+.explore_btn:hover a{
+    cursor:pointer;
+    color:rgb(0, 0, 0) !important;
+}
+.explore_btn:hover::before{
+    transform:translateX(0)
+}
+
+/* footer_hover */
+
+.footer_menu ul li{
+    /* display:inline-block; */
+    position:relative;
+    cursor:pointer
+}
+.footer_menu ul li::after{
+    content:'';
+    position:absolute;
+    width:100%;
+    transform:scaleX(0);
+    height:2px;bottom:0;
+    left:0;
+    background-color:#80B500;
+    transform-origin:bottom right;
+    transition:transform .4s cubic-bezier(.86,0,.07,1)
+}
+.footer_menu ul li:hover:after{
+    transform:scaleX(1);
+    transform-origin:bottom left
+}
